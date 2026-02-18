@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Model Link Opener",
+  "version": "1.0",
+  "description": "By A A Ron. Opens a new tab with a camgirlfinder.net link based on the current model's page.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
